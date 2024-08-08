@@ -118,13 +118,14 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 20px;
-    padding: 5px 8%;
+    padding: 10px 5%;
+    margin: 0 auto;
 }
 .card{
     width: 350px;
     border-radius: 3px;
     overflow: hidden;
-    margin: 15px;
+    margin:10px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background: rgb(255, 255, 255);
 }
@@ -149,3 +150,40 @@ button:hover{
 }
 
 /* === player_area_ends_here === */
+
+/* hightlights_area_stats_here */
+
+.hightlight_area{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7%;
+    align-items: center;
+    gap: 20px;
+}
+
+.hightlights_img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.hightlights_content h2{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.hightlights_content p{
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
