@@ -151,7 +151,7 @@ button:hover{
 
 /* === player_area_ends_here === */
 
-/* hightlights_area_stats_here */
+/* === hightlights_area_stats_here === */
 
 .hightlight_area{
     display: flex;
@@ -187,3 +187,46 @@ button:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* === hightlights_area_ends_here === */
+
+/* === footer_area_starts_here === */
+
+.footer_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_img img{
+    margin-top: 80px;
+    width: 483.87px;
+    height: 110px;
+}
+.footer_icons a{
+    border: 2px solid red;
+}
+
+.footer_icons img{
+    width: 27.07px;
+    height: 22.27px;
+    left: 23.34%;
+    right: 23.34%;
+    top: 31.66%;
+    bottom: 30%;
+}
+
+footer p{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* === footer_area_ends_here === */
+
