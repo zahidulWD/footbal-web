@@ -1,0 +1,45 @@
+/* === bobile|_device === */
+
+@media screen and (max-width: 767px){
+    body {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    /* header-area */
+    .hamburger-manu{
+        color: #ffffff;
+        display: block;
+        width: 30px;
+        left: 3px;
+        top: 18px;
+    }
+    .nav_area{
+        flex-direction: column;
+    }
+    button{
+        margin-left: 0px;
+    }
+    li, a{
+        display: none;
+    }
+    .nab_btn{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .nav_links li{
+        display: block;
+        margin: 10px;
+    }
+    .banner_content button{
+        margin-bottom: 10px;
+    }
+}
